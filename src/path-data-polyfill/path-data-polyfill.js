@@ -23,7 +23,7 @@ function pathDataPolyfill(window) {
 //   Jarosław Foksa
 // @license
 //   MIT License
-if (!window.SVGPathElement.prototype.getPathData || !window.SVGPathElement.prototype.setPathData || navigator.userAgent.indexOf("Firefox/") {
+if (!window.SVGPathElement.prototype.getPathData || !window.SVGPathElement.prototype.setPathData || navigator.userAgent.indexOf("Firefox/")) {
   (function() {
     var commandsMap = {
       "Z":"Z", "M":"M", "L":"L", "C":"C", "Q":"Q", "A":"A", "H":"H", "V":"V", "S":"S", "T":"T",
